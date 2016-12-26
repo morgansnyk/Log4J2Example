@@ -13,8 +13,8 @@ class Hello {
      * callMe demonstrates the logging process
      */
     boolean callMe() {
-        logger.entry();
+        logger.traceEntry();
         logger.error("Inside The Logger!");
-        return logger.exit(false);
+        return logger.traceExit(false);
     }
 }
