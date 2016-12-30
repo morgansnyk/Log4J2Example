@@ -3,6 +3,10 @@
 
 Test Application to run Log4J2 in a Maven and Gradle project
 
+Based on [an article by Krishna Srinivasan](http://javabeat.net/log4j-2-example/).
+
+As noted in the comments section, some people were having trouble, so I created this as an example of a working version they could clone or compare to their work.
+
 **Note**: this has only been tested on Ubuntu 16.04, not on a Mac or Windows Machine)
 
 ## Maven Project
