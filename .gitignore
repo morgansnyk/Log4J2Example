@@ -2,7 +2,6 @@
 /.gradle/
 /.sonar/
 /build/
-/gradle/
 /logs/
 /nbactions.xml
 /nb-configuration.xml
