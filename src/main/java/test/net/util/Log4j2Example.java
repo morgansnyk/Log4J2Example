@@ -4,13 +4,13 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 /**
- *
  * @author Stargator
+ * Based on the following article: http://javabeat.net/log4j-2-example/
  */
 public class Log4j2Example {
     private static final Logger logger = LogManager.getLogger(Log4j2Example.class.getName());
 
-    private Log4j2Example() {}
+    Log4j2Example() {}
 
     /**
      * This is the main function running all the steps of the example

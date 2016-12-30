@@ -2,6 +2,7 @@
 /.gradle/
 /.sonar/
 /build/
+/generatedFromTest/
 /logs/
 /nbactions.xml
 /nb-configuration.xml
