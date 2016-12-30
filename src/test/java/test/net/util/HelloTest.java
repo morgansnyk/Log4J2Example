@@ -4,10 +4,16 @@ import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
+/**
+ * Test class for a utility class
+ */
 public class HelloTest {
 
+    /**
+     * Tests results of a method
+     */
     @Test
-    public void testCallMe() throws Exception {
+    public void testCallMe() {
         Hello helloClass = new Hello();
 
         assertEquals(false, helloClass.callMe());
