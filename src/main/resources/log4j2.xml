@@ -6,8 +6,8 @@
             <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />
         </Console>
 
-        <RollingFile name="test.log" fileName="logs/test.log"
-              append="true" immediateFlush="false" filePattern="logs/$${date:yyyy-MM}/%d{MM-dd-yyyy}-%i-test.log">
+        <RollingFile name="real.log" fileName="logs/real.log"
+              append="true" immediateFlush="false" filePattern="logs/$${date:yyyy-MM}/%d{MM-dd-yyyy}-%i-real.log">
             <PatternLayout pattern="%d %-5p [%t] %c (%F:%L) - %m%n"/>
             <Policies>
                 <TimeBasedTriggeringPolicy />
@@ -18,7 +18,7 @@
     </Appenders>
     <Loggers>
         <Root level="ERROR">
-            <AppenderRef ref="test.log" />
+            <AppenderRef ref="real.log" />
             <AppenderRef ref="CONSOLE"/>
         </Root>
 
