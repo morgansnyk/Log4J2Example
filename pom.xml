@@ -55,23 +55,23 @@
         <bool.versions.maven.plugin.AllowSnapshots>false</bool.versions.maven.plugin.AllowSnapshots>
         <bool.versions.maven.plugin.ReportMode>true</bool.versions.maven.plugin.ReportMode>
         <cobertura.maven.plugin.version>2.7</cobertura.maven.plugin.version>
-        <findbugs.maven.plugin.version>3.0.4</findbugs.maven.plugin.version>
+        <findbugs.maven.plugin.version>3.0.5</findbugs.maven.plugin.version>
         <jdk.version>1.8</jdk.version>
         <junit.version>4.12.1</junit.version>
         <log4j.version>2.7</log4j.version>
         <maven.clean.plugin.version>3.0.0</maven.clean.plugin.version>
-        <maven.compiler.plugin.version>3.6.0</maven.compiler.plugin.version>
-        <maven.dependency.plugin.version>3.0.0</maven.dependency.plugin.version>
+        <maven.compiler.plugin.version>3.7.0</maven.compiler.plugin.version>
+        <maven.dependency.plugin.version>3.0.2</maven.dependency.plugin.version>
         <maven.deploy.plugin.version>2.8.2</maven.deploy.plugin.version>
         <maven.install.plugin.version>2.5.2</maven.install.plugin.version>
         <maven.jar.plugin.version>3.0.2</maven.jar.plugin.version>
         <maven.resources.plugin.version>3.0.2</maven.resources.plugin.version>
         <maven.site.plugin.version>3.6</maven.site.plugin.version>
-        <maven.surefire.plugin.version>2.19.1</maven.surefire.plugin.version>
-        <org.codehaus.mojo-exec.maven.plugin.version>1.5.0</org.codehaus.mojo-exec.maven.plugin.version>
+        <maven.surefire.plugin.version>2.20.1</maven.surefire.plugin.version>
+        <org.codehaus.mojo-exec.maven.plugin.version>1.6.0</org.codehaus.mojo-exec.maven.plugin.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.maven.version>3.3.9</project.maven.version>
-        <versions.maven.plugin.version>2.3</versions.maven.plugin.version>
+        <versions.maven.plugin.version>2.5</versions.maven.plugin.version>
     </properties>
 
     <repositories>
