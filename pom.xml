@@ -15,8 +15,8 @@
     <!--     Project Description                                    -->
     <!--=============================================================-->
     <name>Log4J2-Example</name>
-    <description></description>
-    <url></url>
+    <description/>
+    <url/>
     <prerequisites>
         <maven>${project.maven.version}</maven>
     </prerequisites>
@@ -58,7 +58,7 @@
         <findbugs.maven.plugin.version>3.0.5</findbugs.maven.plugin.version>
         <jdk.version>1.8</jdk.version>
         <junit.version>4.12.1</junit.version>
-        <log4j.version>2.15.0</log4j.version>
+        <log4j.version>2.16.0</log4j.version>
         <maven.clean.plugin.version>3.0.0</maven.clean.plugin.version>
         <maven.compiler.plugin.version>3.7.0</maven.compiler.plugin.version>
         <maven.dependency.plugin.version>3.0.2</maven.dependency.plugin.version>
